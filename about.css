@@ -1,0 +1,44 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.card{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1 img{
+    width:600px;
+    height: 700px; 
+}
+.card2 img{
+    width: 749px;
+    height: auto; 
+}
+.card3 img{ 
+     width: 749px;
+    height: auto;
+}
+@media (max-width:716px){
+    body{
+        background-color: #6ca079;
+    }
+    .card{
+        width: 100%;
+        height: 600px;
+        display: flex; 
+        flex-wrap: wrap;
+    }   
+    .card1 img{
+        width: 200px;
+        height: 500px;
+    }
+    .card2 img{
+        width: 215px;
+        height: 150px;
+    }
+    .card3 img{
+        width: 215px;
+        height: 150px;
+    }
+}
